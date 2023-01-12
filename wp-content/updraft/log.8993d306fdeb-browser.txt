@@ -1,0 +1,140 @@
+0000.155 (R) [notice] Looking for db archive: file name: backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-db.gz
+0000.156 (R) [notice] Archive is expected to be size: 702.9 KB: OK
+0000.161 (R) [notice] Looking for uploads archive: file name: backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-uploads.zip
+0000.162 (R) [notice] Archive is expected to be size: 67412.2 KB: OK
+0000.165 (R) [notice] Looking for others archive: file name: backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-others.zip
+0000.166 (R) [notice] Archive is expected to be size: 1001.3 KB: OK
+0000.210 (R) [notice] Unpacking backup... (backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-db.gz, 0.7 Mb)
+0000.218 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0001.792 (R) [notice] Mengaktifkan moda perawatan&#8230;
+0002.230 (R) [notice] Backup created by: 1.16.61
+0002.231 (R) [notice] Backup of: https://neiipackaging.com
+0002.265 (R) [notice] Content URL: https://neiipackaging.com/wp-content
+0002.265 (R) [notice] Uploads URL: https://neiipackaging.com/wp-content/uploads
+0002.265 (R) [notice] Old table prefix: wpct_
+0002.266 (R) [notice] Site information: multisite = 0
+0002.266 (R) [notice] Site information: sql_mode = 
+0002.269 (R) [notice] New table prefix: y5_
+0002.346 (R) [notice] Processing table (InnoDB):  wpct_options - will restore as: y5_options
+0004.448 (R) [notice] Atomic restore: dropping original table (ne_options)
+0004.648 (R) [notice] Atomic restore: renaming new table (y5_options) to final table name (ne_options)
+0015.865 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: OK
+0015.887 (R) [notice] Search and replacing table: ne_options: rows: 567
+0016.211 (R) [notice] Processing table (InnoDB):  wpct_users - will restore as: y5_users
+0016.984 (R) [notice] Atomic restore: dropping original table (ne_users)
+0017.141 (R) [notice] Atomic restore: renaming new table (y5_users) to final table name (ne_users)
+0018.134 (R) [notice] Search and replacing table: ne_users: rows: 2
+0018.137 (R) [notice] Processing table (InnoDB):  wpct_usermeta - will restore as: y5_usermeta
+0018.507 (R) [notice] Atomic restore: dropping original table (ne_usermeta)
+0018.666 (R) [notice] Atomic restore: renaming new table (y5_usermeta) to final table name (ne_usermeta)
+0018.806 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: OK
+0018.811 (R) [notice] Search and replacing table: ne_usermeta: rows: 48
+0018.814 (R) [notice] Processing table (InnoDB):  wpct_commentmeta - will restore as: y5_commentmeta
+0019.032 (R) [notice] Atomic restore: dropping original table (ne_commentmeta)
+0019.348 (R) [notice] Atomic restore: renaming new table (y5_commentmeta) to final table name (ne_commentmeta)
+0019.699 (R) [notice] Search and replacing table: ne_commentmeta: rows: 0
+0019.700 (R) [notice] Processing table (InnoDB):  wpct_comments - will restore as: y5_comments
+0020.985 (R) [notice] Atomic restore: dropping original table (ne_comments)
+0021.225 (R) [notice] Atomic restore: renaming new table (y5_comments) to final table name (ne_comments)
+0021.406 (R) [notice] Search and replacing table: ne_comments: rows: 1
+0021.414 (R) [notice] Processing table (InnoDB):  wpct_links - will restore as: y5_links
+0021.597 (R) [notice] Atomic restore: dropping original table (ne_links)
+0021.732 (R) [notice] Atomic restore: renaming new table (y5_links) to final table name (ne_links)
+0021.857 (R) [notice] Search and replacing table: ne_links: rows: 0
+0021.857 (R) [notice] Processing table (InnoDB):  wpct_postmeta - will restore as: y5_postmeta
+0027.316 (R) [notice] Atomic restore: dropping original table (ne_postmeta)
+0027.569 (R) [notice] Atomic restore: renaming new table (y5_postmeta) to final table name (ne_postmeta)
+0029.475 (R) [notice] Search and replacing table: ne_postmeta: rows: 219
+0074.230 (R) [notice] Processing table (InnoDB):  wpct_posts - will restore as: y5_posts
+0079.642 (R) [notice] Atomic restore: dropping original table (ne_posts)
+0080.022 (R) [notice] Atomic restore: renaming new table (y5_posts) to final table name (ne_posts)
+0081.891 (R) [notice] Search and replacing table: ne_posts: rows: 375
+0098.485 (R) [notice] Processing table (InnoDB):  wpct_term_relationships - will restore as: y5_term_relationships
+0099.386 (R) [notice] Atomic restore: dropping original table (ne_term_relationships)
+0100.313 (R) [notice] Atomic restore: renaming new table (y5_term_relationships) to final table name (ne_term_relationships)
+0100.607 (R) [notice] Skipping this table: data in this table (ne_term_relationships) should not be search/replaced
+0100.608 (R) [notice] Processing table (InnoDB):  wpct_term_taxonomy - will restore as: y5_term_taxonomy
+0101.421 (R) [notice] Atomic restore: dropping original table (ne_term_taxonomy)
+0101.785 (R) [notice] Atomic restore: renaming new table (y5_term_taxonomy) to final table name (ne_term_taxonomy)
+0102.182 (R) [notice] Search and replacing table: ne_term_taxonomy: rows: 9
+0102.186 (R) [notice] Processing table (InnoDB):  wpct_termmeta - will restore as: y5_termmeta
+0104.248 (R) [notice] Database queries processed: 50 in 104.02 seconds
+0104.249 (R) [notice] Atomic restore: dropping original table (ne_termmeta)
+0104.496 (R) [notice] Atomic restore: renaming new table (y5_termmeta) to final table name (ne_termmeta)
+0104.917 (R) [notice] Search and replacing table: ne_termmeta: rows: 2
+0104.921 (R) [notice] Processing table (InnoDB):  wpct_terms - will restore as: y5_terms
+0106.370 (R) [notice] Atomic restore: dropping original table (ne_terms)
+0106.606 (R) [notice] Atomic restore: renaming new table (y5_terms) to final table name (ne_terms)
+0106.946 (R) [notice] Search and replacing table: ne_terms: rows: 9
+0106.951 (R) [notice] Processing table (InnoDB):  wpct_aiowps_events - will restore as: y5_aiowps_events
+0107.482 (R) [notice] Atomic restore: dropping original table (ne_aiowps_events)
+0107.485 (R) [notice] Atomic restore: renaming new table (y5_aiowps_events) to final table name (ne_aiowps_events)
+0108.577 (R) [notice] Search and replacing table: ne_aiowps_events: rows: 0
+0108.577 (R) [notice] Processing table (InnoDB):  wpct_aiowps_failed_logins - will restore as: y5_aiowps_failed_logins
+0112.220 (R) [notice] Atomic restore: dropping original table (ne_aiowps_failed_logins)
+0112.221 (R) [notice] Atomic restore: renaming new table (y5_aiowps_failed_logins) to final table name (ne_aiowps_failed_logins)
+0112.561 (R) [notice] Search and replacing table: ne_aiowps_failed_logins: rows: 5039
+0112.798 (R) [notice] Searching and replacing reached row: 5000
+0112.804 (R) [notice] Processing table (InnoDB):  wpct_aiowps_global_meta - will restore as: y5_aiowps_global_meta
+0113.407 (R) [notice] Atomic restore: dropping original table (ne_aiowps_global_meta)
+0113.408 (R) [notice] Atomic restore: renaming new table (y5_aiowps_global_meta) to final table name (ne_aiowps_global_meta)
+0114.426 (R) [notice] Search and replacing table: ne_aiowps_global_meta: rows: 0
+0114.428 (R) [notice] Processing table (InnoDB):  wpct_aiowps_login_activity - will restore as: y5_aiowps_login_activity
+0115.735 (R) [notice] Atomic restore: dropping original table (ne_aiowps_login_activity)
+0115.736 (R) [notice] Atomic restore: renaming new table (y5_aiowps_login_activity) to final table name (ne_aiowps_login_activity)
+0116.159 (R) [notice] Search and replacing table: ne_aiowps_login_activity: rows: 8
+0116.160 (R) [notice] Processing table (InnoDB):  wpct_aiowps_login_lockdown - will restore as: y5_aiowps_login_lockdown
+0118.018 (R) [notice] Atomic restore: dropping original table (ne_aiowps_login_lockdown)
+0118.020 (R) [notice] Atomic restore: renaming new table (y5_aiowps_login_lockdown) to final table name (ne_aiowps_login_lockdown)
+0118.284 (R) [notice] Search and replacing table: ne_aiowps_login_lockdown: rows: 0
+0118.285 (R) [notice] Processing table (InnoDB):  wpct_aiowps_permanent_block - will restore as: y5_aiowps_permanent_block
+0118.577 (R) [notice] Atomic restore: dropping original table (ne_aiowps_permanent_block)
+0118.577 (R) [notice] Atomic restore: renaming new table (y5_aiowps_permanent_block) to final table name (ne_aiowps_permanent_block)
+0119.134 (R) [notice] Search and replacing table: ne_aiowps_permanent_block: rows: 0
+0119.135 (R) [notice] Processing table (InnoDB):  wpct_podsrel - will restore as: y5_podsrel
+0123.350 (R) [notice] Menonaktifkan moda perawatan&#8230;
+0123.351 (R) [notice] Atomic restore: dropping original table (ne_podsrel)
+0123.352 (R) [notice] Atomic restore: renaming new table (y5_podsrel) to final table name (ne_podsrel)
+0123.748 (R) [notice] Search and replacing table: ne_podsrel: rows: 0
+0123.748 (R) [notice] Finished: lines processed: 76 in 123.52 seconds
+0123.750 (R) [notice] Cleaning up rubbish...
+0124.148 (R) [notice] Database search and replace: replace https://neiipackaging.com in backup dump with http://neiipackaging.com
+0124.149 (R) [notice] Database search and replace: replace http://neiipackaging.com in backup dump with http://neiipackaging.com
+0124.159 (R) [notice] Search and replacing table: ne_aiowps_events: already done
+0124.160 (R) [notice] Search and replacing table: ne_aiowps_failed_logins: already done
+0124.162 (R) [notice] Search and replacing table: ne_aiowps_global_meta: already done
+0124.163 (R) [notice] Search and replacing table: ne_aiowps_login_activity: already done
+0124.164 (R) [notice] Search and replacing table: ne_aiowps_login_lockdown: already done
+0124.165 (R) [notice] Search and replacing table: ne_aiowps_permanent_block: already done
+0124.167 (R) [notice] Search and replacing table: ne_commentmeta: already done
+0124.169 (R) [notice] Search and replacing table: ne_comments: already done
+0124.170 (R) [notice] Search and replacing table: ne_links: already done
+0124.171 (R) [notice] Search and replacing table: ne_options: already done
+0124.172 (R) [notice] Search and replacing table: ne_podsrel: already done
+0124.172 (R) [notice] Search and replacing table: ne_postmeta: already done
+0124.172 (R) [notice] Search and replacing table: ne_posts: already done
+0124.173 (R) [notice] Search and replacing table: ne_term_relationships: already done
+0124.173 (R) [notice] Search and replacing table: ne_term_taxonomy: already done
+0124.173 (R) [notice] Search and replacing table: ne_termmeta: already done
+0124.174 (R) [notice] Search and replacing table: ne_terms: already done
+0124.174 (R) [notice] Search and replacing table: ne_usermeta: already done
+0124.174 (R) [notice] Search and replacing table: ne_users: already done
+0124.175 (R) [notice] Tables examined: 18
+0124.175 (R) [notice] Rows examined: 6279
+0124.175 (R) [notice] Changes made: 309
+0124.175 (R) [notice] SQL update commands run: 309
+0124.176 (R) [notice] Errors: 0
+0124.176 (R) [notice] Time taken (seconds): 64.883
+0124.401 (R) [notice] Unpacking backup... (backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-uploads.zip, 65.8 MB)
+0131.093 (R) [notice] Unzip progress: 986 out of 986 files (66.4 MB, uploads/madxartwork/js/dce-frontend.min.js)
+0131.125 (R) [notice] Moving old data out of the way...
+0131.130 (R) [notice] Moving unpacked backup into place...
+0131.414 (R) [notice] Cleaning up rubbish...
+0131.882 (R) [notice] Unpacking backup... (backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-others.zip, 1 MB)
+0132.052 (R) [notice] Unzip progress: 20 out of 20 files (3.6 MB, languages/continents-cities-de_DE.mo)
+0132.069 (R) [notice] advanced-cache.php: Skipping cache file (does not already exist)
+0132.093 (R) [notice] Cleaning up rubbish...
+0148.406 (R) [notice] Plugin path qtranslate-xt-master/qtranslate.php not found: de-activating.
+0148.406 (R) [notice] Plugin path tinymce-advanced/tinymce-advanced.php not found: de-activating.
+0148.406 (R) [notice] Plugin path wp-mail-smtp/wp_mail_smtp.php not found: de-activating.
+0148.709 (R) [notice] Restore successful!

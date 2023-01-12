@@ -1,0 +1,167 @@
+0000.265 () Opened log file at time: Thu, 12 Jan 2023 06:01:15 +0000 on http://neiipackaging.com
+0000.266 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 4.9.16 PHP: 7.1.32 (apache2handler, Windows NT ASUS64 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.6-MariaDB WPLANG: id_ID Server: Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 37.7M | 6M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.266 () Free space on disk containing Updraft's temporary directory: 372184.3 MB
+0000.395 () Restore setup, now closing connection and starting restore over AJAX.
+0000.076 () Opened log file at time: Thu, 12 Jan 2023 06:01:16 +0000 on http://neiipackaging.com
+0000.076 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 4.9.16 PHP: 7.1.32 (apache2handler, Windows NT ASUS64 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.6-MariaDB WPLANG: id_ID Server: Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.8M | 2M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.076 () Free space on disk containing Updraft's temporary directory: 372184.3 MB
+0000.106 () Ensuring WP_Filesystem is setup for a restore
+0000.109 () WP_Filesystem is setup and ready for a restore
+0000.153 () Restore job started. Entities to restore: uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wpct_options","wpct_users","wpct_usermeta","wpct_commentmeta","wpct_comments","wpct_links","wpct_postmeta","wpct_posts","wpct_term_relationships","wpct_term_taxonomy","wpct_termmeta","wpct_terms","wpct_aiowps_events","wpct_aiowps_failed_logins","wpct_aiowps_global_meta","wpct_aiowps_login_activity","wpct_aiowps_login_lockdown","wpct_aiowps_permanent_block","wpct_podsrel"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.209 () Entity: db
+0000.209 () restore_backup(backup_file=backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-db.gz, type=db, info=a:0:{}, last_one=)
+0000.210 () Unpacking backup... (backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-db.gz, 0.7 Mb)
+0000.215 () Database successfully unpacked
+0000.218 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.218 () Using direct MySQL access; value of use_mysqli is: 1
+0000.219 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0001.792 () Max packet size: 32 MB
+0001.792 () Entering maintenance mode
+0001.792 () Mengaktifkan moda perawatan&#8230;
+0002.230 () Backup created by: 1.16.61
+0002.231 () Backup of: https://neiipackaging.com
+0002.265 () Content URL: https://neiipackaging.com/wp-content
+0002.265 () Uploads URL: https://neiipackaging.com/wp-content/uploads
+0002.266 () Old table prefix: wpct_
+0002.266 () Site information: multisite=0
+0002.266 () Site information: sql_mode=
+0002.269 () New table prefix: y5_
+0002.346 () Processing table (InnoDB): wpct_options - will restore as: y5_options
+0004.448 () Atomic restore: dropping original table (ne_options)
+0004.648 () Atomic restore: renaming new table (y5_options) to final table name (ne_options)
+0004.828 () Restoring prior UD configuration (table: ne_options; keys: 98)
+0015.842 () Table prefix has changed: changing options table field(s) accordingly (options)
+0015.865 () Options table fields changed OK
+0015.888 () Search and replacing table: ne_options: rows: 567
+0015.985 () Incomplete object detected in database: madxartwork\Core\Logger\Items\PHP; Search and replace will be skipped for these entries
+0015.985 () Incomplete object detected in database: madxartwork\Core\Logger\Items\JS; Search and replace will be skipped for these entries
+0015.986 () Incomplete object detected in database: madxartwork\Core\Logger\Items\Base; Search and replace will be skipped for these entries
+0016.048 () Incomplete object detected in database: PodsField_Pick; Search and replace will be skipped for these entries
+0016.210 () Processing table (InnoDB): wpct_users - will restore as: y5_users
+0016.984 () Atomic restore: dropping original table (ne_users)
+0017.141 () Atomic restore: renaming new table (y5_users) to final table name (ne_users)
+0018.135 () Search and replacing table: ne_users: rows: 2
+0018.137 () Processing table (InnoDB): wpct_usermeta - will restore as: y5_usermeta
+0018.507 () Atomic restore: dropping original table (ne_usermeta)
+0018.666 () Atomic restore: renaming new table (y5_usermeta) to final table name (ne_usermeta)
+0018.784 () Table prefix has changed: changing usermeta table field(s) accordingly
+0018.806 () Usermeta table fields changed OK
+0018.811 () Search and replacing table: ne_usermeta: rows: 48
+0018.814 () Processing table (InnoDB): wpct_commentmeta - will restore as: y5_commentmeta
+0019.032 () Atomic restore: dropping original table (ne_commentmeta)
+0019.348 () Atomic restore: renaming new table (y5_commentmeta) to final table name (ne_commentmeta)
+0019.700 () Search and replacing table: ne_commentmeta: rows: 0
+0019.700 () Processing table (InnoDB): wpct_comments - will restore as: y5_comments
+0020.985 () Atomic restore: dropping original table (ne_comments)
+0021.225 () Atomic restore: renaming new table (y5_comments) to final table name (ne_comments)
+0021.406 () Search and replacing table: ne_comments: rows: 1
+0021.413 () Processing table (InnoDB): wpct_links - will restore as: y5_links
+0021.597 () Atomic restore: dropping original table (ne_links)
+0021.732 () Atomic restore: renaming new table (y5_links) to final table name (ne_links)
+0021.857 () Search and replacing table: ne_links: rows: 0
+0021.857 () Processing table (InnoDB): wpct_postmeta - will restore as: y5_postmeta
+0027.316 () Atomic restore: dropping original table (ne_postmeta)
+0027.569 () Atomic restore: renaming new table (y5_postmeta) to final table name (ne_postmeta)
+0029.476 () Search and replacing table: ne_postmeta: rows: 219
+0074.230 () Processing table (InnoDB): wpct_posts - will restore as: y5_posts
+0079.642 () Atomic restore: dropping original table (ne_posts)
+0080.022 () Atomic restore: renaming new table (y5_posts) to final table name (ne_posts)
+0081.890 () Skipping search/replace on GUID column in posts table
+0081.891 () Search and replacing table: ne_posts: rows: 375
+0098.485 () Processing table (InnoDB): wpct_term_relationships - will restore as: y5_term_relationships
+0099.386 () Atomic restore: dropping original table (ne_term_relationships)
+0100.313 () Atomic restore: renaming new table (y5_term_relationships) to final table name (ne_term_relationships)
+0100.606 () Skipping this table: data in this table (ne_term_relationships) should not be search/replaced
+0100.607 () Processing table (InnoDB): wpct_term_taxonomy - will restore as: y5_term_taxonomy
+0101.421 () Atomic restore: dropping original table (ne_term_taxonomy)
+0101.785 () Atomic restore: renaming new table (y5_term_taxonomy) to final table name (ne_term_taxonomy)
+0102.183 () Search and replacing table: ne_term_taxonomy: rows: 9
+0102.186 () Processing table (InnoDB): wpct_termmeta - will restore as: y5_termmeta
+0104.248 () Database queries processed: 50 in 104.02 seconds
+0104.249 () Atomic restore: dropping original table (ne_termmeta)
+0104.496 () Atomic restore: renaming new table (y5_termmeta) to final table name (ne_termmeta)
+0104.918 () Search and replacing table: ne_termmeta: rows: 2
+0104.921 () Processing table (InnoDB): wpct_terms - will restore as: y5_terms
+0106.370 () Atomic restore: dropping original table (ne_terms)
+0106.606 () Atomic restore: renaming new table (y5_terms) to final table name (ne_terms)
+0106.947 () Search and replacing table: ne_terms: rows: 9
+0106.950 () Processing table (InnoDB): wpct_aiowps_events - will restore as: y5_aiowps_events
+0107.482 () Atomic restore: dropping original table (ne_aiowps_events)
+0107.484 () Atomic restore: renaming new table (y5_aiowps_events) to final table name (ne_aiowps_events)
+0108.577 () Search and replacing table: ne_aiowps_events: rows: 0
+0108.577 () Processing table (InnoDB): wpct_aiowps_failed_logins - will restore as: y5_aiowps_failed_logins
+0112.220 () Atomic restore: dropping original table (ne_aiowps_failed_logins)
+0112.221 () Atomic restore: renaming new table (y5_aiowps_failed_logins) to final table name (ne_aiowps_failed_logins)
+0112.561 () Search and replacing table: ne_aiowps_failed_logins: rows: 5039
+0112.798 () Searching and replacing reached row: 5000
+0112.804 () Processing table (InnoDB): wpct_aiowps_global_meta - will restore as: y5_aiowps_global_meta
+0113.407 () Atomic restore: dropping original table (ne_aiowps_global_meta)
+0113.408 () Atomic restore: renaming new table (y5_aiowps_global_meta) to final table name (ne_aiowps_global_meta)
+0114.427 () Search and replacing table: ne_aiowps_global_meta: rows: 0
+0114.428 () Processing table (InnoDB): wpct_aiowps_login_activity - will restore as: y5_aiowps_login_activity
+0115.735 () Atomic restore: dropping original table (ne_aiowps_login_activity)
+0115.736 () Atomic restore: renaming new table (y5_aiowps_login_activity) to final table name (ne_aiowps_login_activity)
+0116.159 () Search and replacing table: ne_aiowps_login_activity: rows: 8
+0116.160 () Processing table (InnoDB): wpct_aiowps_login_lockdown - will restore as: y5_aiowps_login_lockdown
+0118.017 () Atomic restore: dropping original table (ne_aiowps_login_lockdown)
+0118.020 () Atomic restore: renaming new table (y5_aiowps_login_lockdown) to final table name (ne_aiowps_login_lockdown)
+0118.285 () Search and replacing table: ne_aiowps_login_lockdown: rows: 0
+0118.285 () Processing table (InnoDB): wpct_aiowps_permanent_block - will restore as: y5_aiowps_permanent_block
+0118.577 () Atomic restore: dropping original table (ne_aiowps_permanent_block)
+0118.577 () Atomic restore: renaming new table (y5_aiowps_permanent_block) to final table name (ne_aiowps_permanent_block)
+0119.134 () Search and replacing table: ne_aiowps_permanent_block: rows: 0
+0119.135 () Processing table (InnoDB): wpct_podsrel - will restore as: y5_podsrel
+0119.398 () UpdraftPlus Vault: this site has not been connected - check your settings
+0123.349 () Unlocking database and leaving maintenance mode
+0123.350 () Menonaktifkan moda perawatan&#8230;
+0123.351 () Atomic restore: dropping original table (ne_podsrel)
+0123.352 () Atomic restore: renaming new table (y5_podsrel) to final table name (ne_podsrel)
+0123.748 () Search and replacing table: ne_podsrel: rows: 0
+0123.748 () Finished: lines processed: 76 in 123.52 seconds
+0123.750 () Cleaning up rubbish...
+0123.751 () Begin search and replace (updraftplus_restored_db)
+0123.752 () [Database-replace-site-url] Database: search and replace site URL
+0123.785 () Restored pre-migration site ID for this installation
+0124.148 () Database search and replace: replace https://neiipackaging.com in backup dump with http://neiipackaging.com
+0124.149 () Database search and replace: replace http://neiipackaging.com in backup dump with http://neiipackaging.com
+0124.160 () Search and replacing table: ne_aiowps_events: already done
+0124.162 () Search and replacing table: ne_aiowps_failed_logins: already done
+0124.163 () Search and replacing table: ne_aiowps_global_meta: already done
+0124.164 () Search and replacing table: ne_aiowps_login_activity: already done
+0124.165 () Search and replacing table: ne_aiowps_login_lockdown: already done
+0124.166 () Search and replacing table: ne_aiowps_permanent_block: already done
+0124.169 () Search and replacing table: ne_commentmeta: already done
+0124.170 () Search and replacing table: ne_comments: already done
+0124.171 () Search and replacing table: ne_links: already done
+0124.172 () Search and replacing table: ne_options: already done
+0124.172 () Search and replacing table: ne_podsrel: already done
+0124.172 () Search and replacing table: ne_postmeta: already done
+0124.173 () Search and replacing table: ne_posts: already done
+0124.173 () Search and replacing table: ne_term_relationships: already done
+0124.173 () Search and replacing table: ne_term_taxonomy: already done
+0124.174 () Search and replacing table: ne_termmeta: already done
+0124.174 () Search and replacing table: ne_terms: already done
+0124.174 () Search and replacing table: ne_usermeta: already done
+0124.175 () Search and replacing table: ne_users: already done
+0124.400 () Entity: uploads
+0124.400 () restore_backup(backup_file=backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:38:"D:\xampp-7.1\htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0124.401 () Unpacking backup... (backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-uploads.zip, 65.8 MB)
+0124.421 () Unzipping backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-uploads.zip to D:/xampp-7.1/htdocs/wp-content/upgrade/2bb159de/ using UpdraftPlus_ZipArchive, starting index 0
+0131.094 () Unzip progress: 986 out of 986 files (66.4 MB, uploads/madxartwork/js/dce-frontend.min.js)
+0131.123 () Moving old data: filesystem method / updraft_dir is potentially possible
+0131.125 () Moving old data: can potentially use wp_filesystem method / -old
+0131.125 () Moving old data out of the way...
+0131.130 () Moving unpacked backup into place...
+0131.414 () Cleaning up rubbish...
+0131.880 () Entity: others
+0131.881 () restore_backup(backup_file=backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-others.zip, type=others, info=a:2:{s:4:"path";s:30:"D:\xampp-7.1\htdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0131.881 () Unpacking backup... (backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-others.zip, 1 MB)
+0131.883 () Unzipping backup_2022-12-14-0915_PT_New_Era_Innovation_Industrial_eb572262953d-others.zip to D:/xampp-7.1/htdocs/wp-content/upgrade/5a222b01/ using UpdraftPlus_ZipArchive, starting index 0
+0132.052 () Unzip progress: 20 out of 20 files (3.6 MB, languages/continents-cities-de_DE.mo)
+0132.068 () advanced-cache.php: Skipping cache file (does not already exist)
+0132.093 () Cleaning up rubbish...
+0148.406 () Plugin path qtranslate-xt-master/qtranslate.php not found: de-activating.
+0148.406 () Plugin path tinymce-advanced/tinymce-advanced.php not found: de-activating.
+0148.406 () Plugin path wp-mail-smtp/wp_mail_smtp.php not found: de-activating.
+0148.709 () Restore successful!
+0148.709 () Restore successful
